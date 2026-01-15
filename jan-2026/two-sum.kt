@@ -1,12 +1,12 @@
 class Solution {
-    fun twoSum(nums:intArray, target:Int):intArray {
-        val map = Hashmap<Int, Int>()
+    fun twoSum(nums:IntArray, target:Int):IntArray {
+        val map = HashMap<Int, Int>()
 
         for (i in nums.indices) {
-            val comp = target = nums[i]
+            val comp = target - nums[i]
             
-            if(map.iscontainsKey(comp)) {
-                return intArrayOf(map(comp)!!, i)
+            if(map.containsKey(comp)) {
+                return intArrayOf(map[comp]!!, i)
             }
             map[nums[i]] = i
         }
