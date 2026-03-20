@@ -28,23 +28,23 @@ class Solution {
         return  result
     }
 
-    fun isPalindrome(s: String): String {
-        var left = 0
-        var right = s.length - 1
-
-        if (s.length == 1) {
-            return s
-        }
-
-        while (left < right) {
-            if (s[left] != s[right]){
-                break
-            }
-            left++
-            right--
-        }
-        return s
-    }
+//    fun isPalindrome(s: String): String {
+//        var left = 0
+//        var right = s.length - 1
+//
+//        if (s.length == 1) {
+//            return s
+//        }
+//
+//        while (left < right) {
+//            if (s[left] != s[right]){
+//                break
+//            }
+//            left++
+//            right--
+//        }
+//        return s
+//    }
 }
 
 fun main() {
