@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="inherittance">
-      <change afterPath="$PROJECT_DIR$/leetcode/isPalindrome.kt" afterDir="false" />
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="removed fun">
+      <change afterPath="$PROJECT_DIR$/leetcode/3Sum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +30,21 @@
     &quot;assignee&quot;: &quot;tejasM17&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="969c63c8-2746-4c17-8d80-91f3b44a1d8c" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tejasM17/DSA-kotlin&quot;,
+    &quot;url&quot;: &quot;https://github.com/tejasM17/DSA-kotlin.git&quot;,
     &quot;accountId&quot;: &quot;969c63c8-2746-4c17-8d80-91f3b44a1d8c&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20-sources.jar!/jvmMain/kotlin/text/StringsJVM.kt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -51,8 +60,11 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Kotlin.InherittanceKt.executor": "Run",
+    "Kotlin.IsPalindromeKt (1).executor": "Run",
     "Kotlin.IsPalindromeKt.executor": "Run",
+    "Kotlin.Longest_Palindromic_SubstringKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin._3SumKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,13 +75,20 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "vcs.Git",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.IsPalindromeKt">
+  <component name="RunManager" selected="Kotlin._3SumKt">
     <configuration name="InherittanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa_concepts.InherittanceKt" />
+      <module name="DSA-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindromeKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsPalindromeKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,8 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="Longest_Palindromic_SubstringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Longest_Palindromic_SubstringKt" />
+      <module name="DSA-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3SumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode._3SumKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,9 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._3SumKt" />
+        <item itemvalue="Kotlin.Longest_Palindromic_SubstringKt" />
         <item itemvalue="Kotlin.IsPalindromeKt" />
+        <item itemvalue="Kotlin.IsPalindromeKt (1)" />
         <item itemvalue="Kotlin.InherittanceKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773897056825</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commented unused fun">
+      <option name="closed" value="true" />
+      <created>1773979074753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773979074753</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed fun">
+      <option name="closed" value="true" />
+      <created>1773979438542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773979438542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +197,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inherittance , abstractin learned" />
     <MESSAGE value="inherittance" />
-    <option name="LAST_COMMIT_MESSAGE" value="inherittance" />
+    <MESSAGE value="commented unused fun" />
+    <MESSAGE value="uncommented fun" />
+    <MESSAGE value="removed fun" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed fun" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
