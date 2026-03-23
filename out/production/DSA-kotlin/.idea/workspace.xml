@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="removed fun">
-      <change afterPath="$PROJECT_DIR$/leetcode/3Sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="3sum" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773979438542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3sum">
+      <option name="closed" value="true" />
+      <created>1774110219638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774110219638</updated>
+    </task>
+    <task id="LOCAL-00007" summary="3sum">
+      <option name="closed" value="true" />
+      <created>1774110229340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774110229340</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +213,8 @@
     <MESSAGE value="commented unused fun" />
     <MESSAGE value="uncommented fun" />
     <MESSAGE value="removed fun" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed fun" />
+    <MESSAGE value="3sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="3sum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
