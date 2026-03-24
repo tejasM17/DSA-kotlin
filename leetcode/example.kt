@@ -1,7 +1,10 @@
 package leetcode
 
+fun sortedSquares(nums: IntArray): IntArray {
+    val sort = nums.map { it * it }.sorted().toIntArray()
+    return sort
+}
+
 fun main() {
-    val a = 7
-    val b = 3
-    println(b%a)
+    println(sortedSquares(intArrayOf(-4,-1,0,3,10)))
 }

@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="3sum">
-      <change afterPath="$PROJECT_DIR$/leetcode/RotateArry.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/example.kt" afterDir="false" />
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="revers">
+      <change afterPath="$PROJECT_DIR$/leetcode/ValidPalindrome.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/RotateArry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/RotateArry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/example.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/example.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/RotateArryKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/RotateArryKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
     "Kotlin.Longest_Palindromic_SubstringKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.RotateArryKt.executor": "Run",
+    "Kotlin.ValidPalindromeKt.executor": "Run",
     "Kotlin._3SumKt.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -84,16 +87,9 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.RotateArryKt">
+  <component name="RunManager" selected="Kotlin.ExampleKt">
     <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ExampleKt" />
-      <module name="DSA-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.IsPalindromeKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,6 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidPalindromeKt" />
+      <module name="DSA-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_3SumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode._3SumKt" />
       <module name="DSA-kotlin" />
@@ -122,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.RotateArryKt" />
         <item itemvalue="Kotlin.ExampleKt" />
+        <item itemvalue="Kotlin.ValidPalindromeKt" />
+        <item itemvalue="Kotlin.RotateArryKt" />
         <item itemvalue="Kotlin._3SumKt" />
         <item itemvalue="Kotlin.Longest_Palindromic_SubstringKt" />
-        <item itemvalue="Kotlin.IsPalindromeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774276650717</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="revers">
+      <option name="closed" value="true" />
+      <created>1774279520442</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774279520442</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,22 +241,8 @@
     <MESSAGE value="uncommented fun" />
     <MESSAGE value="removed fun" />
     <MESSAGE value="3sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="3sum" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/leetcode/RotateArry.kt</url>
-          <line>18</line>
-          <properties method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="revers" />
+    <option name="LAST_COMMIT_MESSAGE" value="revers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
