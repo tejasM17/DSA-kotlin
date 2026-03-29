@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="revers">
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="valid palindrome">
+      <change afterPath="$PROJECT_DIR$/dsa_concepts/hashmap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two sum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/example.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/example.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +64,15 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Kotlin.ExampleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HashmapKt.executor&quot;: &quot;Debug&quot;,
     &quot;Kotlin.InherittanceKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.IsPalindromeKt (1).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.IsPalindromeKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Longest_Palindromic_SubstringKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.RotateArryKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Two_sumKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValidPalindromeKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin._3SumKt.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -77,11 +84,16 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ExampleKt">
+  <component name="RunManager" selected="Kotlin.Two_sumKt">
     <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ExampleKt" />
       <module name="DSA-kotlin" />
@@ -89,15 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.IsPalindromeKt" />
-      <module name="DSA-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Longest_Palindromic_SubstringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Longest_Palindromic_SubstringKt" />
+    <configuration name="HashmapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa_concepts.HashmapKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,8 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3SumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._3SumKt" />
+    <configuration name="Two_sumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Two_sumKt" />
+      <module name="DSA-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidPalindromeKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Two_sumKt" />
+        <item itemvalue="Kotlin.HashmapKt" />
         <item itemvalue="Kotlin.ExampleKt" />
+        <item itemvalue="Kotlin.ValidPalindromeKt" />
         <item itemvalue="Kotlin.RotateArryKt" />
-        <item itemvalue="Kotlin._3SumKt" />
-        <item itemvalue="Kotlin.Longest_Palindromic_SubstringKt" />
-        <item itemvalue="Kotlin.IsPalindromeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774279520442</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="valid palindrome">
+      <option name="closed" value="true" />
+      <created>1774323012805</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774323012806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="valid palindrome">
+      <option name="closed" value="true" />
+      <created>1774323023177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774323023177</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +264,8 @@
     <MESSAGE value="removed fun" />
     <MESSAGE value="3sum" />
     <MESSAGE value="revers" />
-    <option name="LAST_COMMIT_MESSAGE" value="revers" />
+    <MESSAGE value="valid palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="valid palindrome" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

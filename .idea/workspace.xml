@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="revers">
-      <change afterPath="$PROJECT_DIR$/leetcode/ValidPalindrome.kt" afterDir="false" />
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="valid palindrome">
+      <change afterPath="$PROJECT_DIR$/dsa_concepts/hashmap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two sum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/RotateArry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/RotateArry.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/example.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/example.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/RotateArryKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/RotateArryKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +64,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Kotlin.ExampleKt.executor": "Run",
+    "Kotlin.HashmapKt.executor": "Debug",
     "Kotlin.InherittanceKt.executor": "Run",
     "Kotlin.IsPalindromeKt (1).executor": "Run",
     "Kotlin.IsPalindromeKt.executor": "Run",
     "Kotlin.Longest_Palindromic_SubstringKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.RotateArryKt.executor": "Run",
+    "Kotlin.Two_sumKt.executor": "Run",
     "Kotlin.ValidPalindromeKt.executor": "Run",
     "Kotlin._3SumKt.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,11 +84,16 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ExampleKt">
+  <component name="RunManager" selected="Kotlin.Two_sumKt">
     <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ExampleKt" />
       <module name="DSA-kotlin" />
@@ -95,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Longest_Palindromic_SubstringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Longest_Palindromic_SubstringKt" />
+    <configuration name="HashmapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa_concepts.HashmapKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,6 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Two_sumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Two_sumKt" />
+      <module name="DSA-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ValidPalindromeKt" />
       <module name="DSA-kotlin" />
@@ -116,20 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3SumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._3SumKt" />
-      <module name="DSA-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Two_sumKt" />
+        <item itemvalue="Kotlin.HashmapKt" />
         <item itemvalue="Kotlin.ExampleKt" />
         <item itemvalue="Kotlin.ValidPalindromeKt" />
         <item itemvalue="Kotlin.RotateArryKt" />
-        <item itemvalue="Kotlin._3SumKt" />
-        <item itemvalue="Kotlin.Longest_Palindromic_SubstringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774279520442</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="valid palindrome">
+      <option name="closed" value="true" />
+      <created>1774323012805</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774323012806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="valid palindrome">
+      <option name="closed" value="true" />
+      <created>1774323023177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774323023177</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +264,49 @@
     <MESSAGE value="removed fun" />
     <MESSAGE value="3sum" />
     <MESSAGE value="revers" />
-    <option name="LAST_COMMIT_MESSAGE" value="revers" />
+    <MESSAGE value="valid palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="valid palindrome" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>3</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leetcode/two sum.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
