@@ -1,10 +1,20 @@
 package leetcode
 
-fun sortedSquares(nums: IntArray): IntArray {
-    val sort = nums.map { it * it }.sorted().toIntArray()
-    return sort
-}
-
 fun main() {
-    println(sortedSquares(intArrayOf(-4,-1,0,3,10)))
+    val intarr = intArrayOf(2,7,11,15)
+    val trget = 9
+
+    var l = 0
+    var r = intarr.size - 1
+    var res = IntArray(2)
+
+    do {
+        if (intarr[l] + intarr[r] == trget){
+            res[0] = l + 1
+            res[1] = r + 1
+            println(res)
+        }
+        if (intarr[l] + intarr[r] > trget) r--
+        else l++
+    }while (l < r)
 }
