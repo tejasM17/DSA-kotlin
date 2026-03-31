@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="two sum, hashMaping">
-      <change afterPath="$PROJECT_DIR$/leetcode/two sum sorted.kt" afterDir="false" />
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="two sum - sorted arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -68,6 +68,7 @@
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.RotateArryKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Two_sumKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.Two_sum_sortedKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.ValidPalindromeKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin._3SumKt.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -89,7 +90,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Two_sum_sortedKt">
+  <component name="RunManager" selected="Kotlin.HashmapKt">
     <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ExampleKt" />
       <module name="DSA-kotlin" />
@@ -127,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Two_sum_sortedKt" />
-        <item itemvalue="Kotlin.Two_sumKt" />
         <item itemvalue="Kotlin.HashmapKt" />
         <item itemvalue="Kotlin.ExampleKt" />
+        <item itemvalue="Kotlin.Two_sum_sortedKt" />
+        <item itemvalue="Kotlin.Two_sumKt" />
         <item itemvalue="Kotlin.ValidPalindromeKt" />
       </list>
     </recent_temporary>
@@ -254,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774794733655</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="two sum - sorted arrays">
+      <option name="closed" value="true" />
+      <created>1774967504606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774967504606</updated>
+    </task>
+    <task id="LOCAL-00015" summary="two sum - sorted arrays">
+      <option name="closed" value="true" />
+      <created>1774967856791</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774967856791</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +295,8 @@
     <MESSAGE value="revers" />
     <MESSAGE value="valid palindrome" />
     <MESSAGE value="two sum, hashMaping" />
-    <option name="LAST_COMMIT_MESSAGE" value="two sum, hashMaping" />
+    <MESSAGE value="two sum - sorted arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="two sum - sorted arrays" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

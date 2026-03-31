@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="two sum - sorted arrays" />
+    <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="two sum - sorted arrays">
+      <change afterPath="$PROJECT_DIR$/leetcode/subarray sum = k.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,13 +63,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Kotlin.ExampleKt.executor": "Run",
-    "Kotlin.HashmapKt.executor": "Debug",
+    "Kotlin.HashmapKt.executor": "Run",
     "Kotlin.InherittanceKt.executor": "Run",
     "Kotlin.IsPalindromeKt (1).executor": "Run",
     "Kotlin.IsPalindromeKt.executor": "Run",
     "Kotlin.Longest_Palindromic_SubstringKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.RotateArryKt.executor": "Run",
+    "Kotlin.Subarray_sum___kKt.executor": "Run",
     "Kotlin.Two_sumKt.executor": "Debug",
     "Kotlin.Two_sum_sortedKt.executor": "Run",
     "Kotlin.ValidPalindromeKt.executor": "Run",
@@ -87,7 +94,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ExampleKt">
+  <component name="RunManager" selected="Kotlin.Subarray_sum___kKt">
     <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ExampleKt" />
       <module name="DSA-kotlin" />
@@ -97,6 +104,13 @@
     </configuration>
     <configuration name="HashmapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa_concepts.HashmapKt" />
+      <module name="DSA-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subarray_sum___kKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Subarray_sum___kKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,20 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ValidPalindromeKt" />
-      <module name="DSA-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Subarray_sum___kKt" />
+        <item itemvalue="Kotlin.HashmapKt" />
         <item itemvalue="Kotlin.ExampleKt" />
         <item itemvalue="Kotlin.Two_sum_sortedKt" />
         <item itemvalue="Kotlin.Two_sumKt" />
-        <item itemvalue="Kotlin.HashmapKt" />
-        <item itemvalue="Kotlin.ValidPalindromeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774967504606</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="two sum - sorted arrays">
+      <option name="closed" value="true" />
+      <created>1774967856791</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774967856791</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

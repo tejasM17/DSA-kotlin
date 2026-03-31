@@ -4,6 +4,7 @@ fun main() {
     val intarr = intArrayOf(2,7,11,15)
     val trget = 9
 
+
     var l = 0
     var r = intarr.size - 1
     var res = IntArray(2)
