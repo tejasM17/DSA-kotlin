@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="906769e0-7e6f-4d77-8d98-b231c129d561" name="Changes" comment="two sum - sorted arrays">
-      <change afterPath="$PROJECT_DIR$/leetcode/subarray sum = k.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/MergeSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/leetcode/ExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-kotlin/META-INF/DSA-kotlin.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.ExampleKt.executor": "Run",
     "Kotlin.HashmapKt.executor": "Run",
     "Kotlin.InherittanceKt.executor": "Run",
@@ -69,6 +71,7 @@
     "Kotlin.IsPalindromeKt.executor": "Run",
     "Kotlin.Longest_Palindromic_SubstringKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MergeSortKt.executor": "Run",
     "Kotlin.RotateArryKt.executor": "Run",
     "Kotlin.Subarray_sum___kKt.executor": "Run",
     "Kotlin.Two_sumKt.executor": "Debug",
@@ -79,6 +82,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -94,37 +98,23 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Subarray_sum___kKt">
-    <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ExampleKt" />
+  <component name="RunManager" selected="Kotlin.MergeSortKt">
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.ArraysKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashmapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa_concepts.HashmapKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subarray_sum___kKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Subarray_sum___kKt" />
-      <module name="DSA-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Two_sumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Two_sumKt" />
-      <module name="DSA-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Two_sum_sortedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Two_sum_sortedKt" />
+    <configuration name="MergeSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MergeSortKt" />
       <module name="DSA-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Subarray_sum___kKt" />
-        <item itemvalue="Kotlin.HashmapKt" />
-        <item itemvalue="Kotlin.ExampleKt" />
-        <item itemvalue="Kotlin.Two_sum_sortedKt" />
-        <item itemvalue="Kotlin.Two_sumKt" />
+        <item itemvalue="Kotlin.MergeSortKt" />
+        <item itemvalue="Kotlin.ArraysKt" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
